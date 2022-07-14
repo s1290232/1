@@ -22,5 +22,8 @@ break;
 }
 }
 System.out.println(Heads: "+cnt1+", Tails: "+cnt2);
+                   if(cnt1>cnt2)
+                   System.out.println("You won!");
+                   else System.out.println("You lost...");
 }
 }
